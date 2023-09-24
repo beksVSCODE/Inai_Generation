@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../header.css">
+    <link rel="stylesheet" href="./account.css">
+    <link rel="stylesheet" href="../../styles/global.css">
+    <title>inai generatuion</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <a href="../../index.html"><div class="header__logo"></div></a>
+            <ul class="header__menu">
+                <li><a class="header__title" href="../../index.html">Главная</a></li>
+                <li><a class="header__title" href="../news/news.html">Новости</a></li>
+                <li><a class="header__title" href="#">Рейтинг</a></li>
+                <li><a class="header__titles" href="#"><button>Войти</button></a></li>
+            </ul>
+            <div class="header__burger__menu">
+                <img src="../../header-icon/burger-menu.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main class="wrapper">
+        <section class="user">
+            <div class="user__container container">
+                <div class="card">
+                    <img src="../news/icons/free-icon-profile-3736502.png" alt="">
+                    <p class="user__name">Бакыт Амиров</p>
+                    <p class="user__title">депутат</p>
+                    <ul class="user__menu">
+                        <li>Решил 0 проблем</li>
+                        <li>опубликовал 0 проблем</li>
+                    </ul>
+                    <div class="user__rate">
+                        <img src="../../icon/Star.svg" alt="">
+                        <p class="user__num">70</p>
+                    </div>
+                </div>
+                <div class="post-form">
+                    <h2>Опубликовать новость</h2>
+                    <form id="postForm">
+                        <label for="title">Заголовок:</label>
+                        <input type="text" id="title" name="title" required><br>
+                
+                        <label for="description">Описание:</label>
+                        <textarea id="description" name="description" required></textarea><br>
+                
+                        <label for="photo">Загрузить фото:</label>
+                        <input type="text" id="photo" name="photo" accept="image/*"><br>
+                
+                        <button type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div> 
+        </section>
+        <section class="add">
+            <div class="add__container container">
+                
+            </div>
+        </section>
+    </main>
+    <script src="../news/news.js"></script>
+    <script src="./../../index.js"></script>
+</body>
+</html>

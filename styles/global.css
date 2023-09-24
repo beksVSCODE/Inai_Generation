@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Manrope:wght@300&family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display: block;
+  }
+  
+  button, input, select, textarea {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  
+  button, input {
+    overflow: visible;
+  }
+  
+  button, select {
+    text-transform: none;
+  }
+  
+  input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+  }
+  
+  input[type="range"] {
+    -webkit-appearance: none;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  body, html {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    font-weight: 500;
+  }
+  
+  body, html, a, button, input, select, textarea {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 15px 15px;
+  }
