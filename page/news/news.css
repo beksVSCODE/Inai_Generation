@@ -128,4 +128,10 @@
     font-size: 17px;
     font-weight: bold;
 }
-
+.card__petisia{
+    width: 180px;
+    height:40px;
+    border-radius: 10px;
+    color: white;
+    background-color:#71A894;
+}

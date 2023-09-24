@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }  
+  .petition-container {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .petition-form {
+    text-align: center;
+  }
+  
+  .petition-form h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .petition-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .petition-form input, .petition-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .petition-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .petition-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pet_bt{
+    width: 150px;
+    height: 40px;
+    background: blue;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-top: 40px;
+  }

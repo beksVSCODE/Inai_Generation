@@ -79,12 +79,13 @@ function renderCards(cardsData) {
                     <p class="card__name">${post.userName}</p>
                 </div>
                 ${descriptionElement}
-                <p class="card__subtitle">После сильного ветра и ливней мост в аварийном состоянии. Обращение к мэрии...</p>
+                <p class="card__subtitle">${post.title}</p>
                 <div class="card__action">
                     <img src="./icons/share.png" alt="">
                     <img src="./icons/like.png" alt="" class="like-icon" data-post-id="${post.id}">
                     <img src="./icons/comment.png" alt="">
                     <p class="card__count" id="likeCount_${post.id}">${post.likeCount} лайков</p>
+                    <a href="../petition/petition.html"><button class="card__petisia">подписать петицию</button></a>
                 </div>
             </div>
         `;

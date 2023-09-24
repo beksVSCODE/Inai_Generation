@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../../header.css">
     <link rel="stylesheet" href="./account.css">
     <link rel="stylesheet" href="../../styles/global.css">
+    
     <title>inai generatuion</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
                 <li><a class="header__title" href="../../index.html">Главная</a></li>
                 <li><a class="header__title" href="../news/news.html">Новости</a></li>
                 <li><a class="header__title" href="#">Рейтинг</a></li>
-                <li><a class="header__titles" href="#"><button>Войти</button></a></li>
+                <li><img class="header__img" src="../news/icons/free-icon-profile-3736502.png" alt=""></li>
             </ul>
             <div class="header__burger__menu">
                 <img src="../../header-icon/burger-menu.png" alt="">
@@ -26,18 +27,20 @@
     <main class="wrapper">
         <section class="user">
             <div class="user__container container">
-                <div class="card">
-                    <img src="../news/icons/free-icon-profile-3736502.png" alt="">
-                    <p class="user__name">Бакыт Амиров</p>
-                    <p class="user__title">депутат</p>
-                    <ul class="user__menu">
-                        <li>Решил 0 проблем</li>
-                        <li>опубликовал 0 проблем</li>
-                    </ul>
-                    <div class="user__rate">
-                        <img src="../../icon/Star.svg" alt="">
-                        <p class="user__num">70</p>
-                    </div>
+                <div class="for__us">
+                    <!-- <div class="card">
+                        <img src="../news/icons/free-icon-profile-3736502.png" alt="">
+                        <p class="user__name"></p>
+                        <p class="user__title"></p>
+                        <ul class="user__menu">
+                            <li>Решил 0 проблем</li>
+                            <li>опубликовал 0 проблем</li>
+                        </ul>
+                        <div class="user__rate">
+                            <img src="../../icon/Star.svg" alt="">
+                            <p class="user__num">70</p>
+                        </div>
+                    </div> -->
                 </div>
                 <div class="post-form">
                     <h2>Опубликовать новость</h2>
@@ -50,6 +53,9 @@
                 
                         <label for="photo">Загрузить фото:</label>
                         <input type="text" id="photo" name="photo" accept="image/*"><br>
+
+                        <label for="photo">Загрузить местоположение:</label>
+                        <input type="text" id="place" name="place" accept="image/*"><br>
                 
                         <button type="submit">Отправить</button>
                     </form>
@@ -62,7 +68,7 @@
             </div>
         </section>
     </main>
-    <script src="../account/account.js"></script>
+    <script src="./account.js"></script>
     <script src="./../../index.js"></script>
 </body>
 </html>
