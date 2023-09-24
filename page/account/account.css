@@ -101,3 +101,113 @@
 .post-form button:hover {
     background-color: #555;
 }
+
+
+.card{
+    flex: 1 1 calc(22.33% - 20px);
+    max-width: 427px;
+    height: 40%;
+    background: white;
+    padding: 15px 15px;
+    border-radius: 8px;
+}
+.card__user{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.card__action{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding-top: 20px;
+}
+.card__user > img {
+    width: 50px;
+}
+.card__name{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.card__description{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.card__subtitle{
+    padding-top:12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.card__action > img {
+    width: 30px;
+}
+.card__problem{
+    max-width: 400px;
+    height: 150px;
+}
+.card__img{
+    width: 400px;
+    height: 180px;
+    object-fit: cover;
+}
+.block__readMore{
+    width: 180px;
+    height: 65px;
+    background: #303031;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: white;
+
+}
+.btn{
+    display: flex;
+    justify-content: end;
+}
+.count{
+    width: 100%;
+    background: #71A894;
+    padding: 60px 60px;
+
+}
+.count__container{
+    display: flex;
+    justify-content: space-between;
+}
+.count__number{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.count__title{
+    font-size: 76px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #FCFCFF;
+
+}
+.count__subtitle{
+    color: #FCFCFF;
+    font-family: Roboto;
+    font-size: 31px;
+    font-weight: 100;
+    line-height: 26px;
+    transition: .5s;
+}
+.card__action > img {
+    transition: .2s;
+}
+.card__action > img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.card__count {
+    font-size: 17px;
+    font-weight: bold;
+}
+

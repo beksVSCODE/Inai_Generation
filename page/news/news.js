@@ -170,34 +170,3 @@ postForm.addEventListener('submit', (event) => {
 
 
 
-
-
-postForm.addEventListener('submit', (event) => {
-    event.preventDefault(); // Предотвращаем стандартное поведение формы (перезагрузку страницы)
-
-    const formData = new FormData(postForm);
-    const postData = {
-        id: 15,
-        title: formData.get('title'),
-        likeCount: 0,
-        img: formData.get('photo'),
-        userName: "",
-        description: formData.get('description')
-    };
-
-    // Отправка POST-запроса
-    fetch(`${API}/posts`, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(postData)
-    })
-    .then(response => response.json())
-    .then(data => {
-        // Обработка ответа от сервера, если нужно
-        console.log('Успешно опубликовано:', data);
-        // Очищаем форму или выполняем дополнительные действия при успешной публикации
-    })
-    .catch(error => console.error('Ошибка при публикации:', error));
-});
